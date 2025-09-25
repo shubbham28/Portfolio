@@ -1,0 +1,52 @@
+[
+  {
+    "id": "metabovariation",
+    "title": "MetaboVariation: Exploring Individual Variation in Metabolite Levels",
+    "abstract": "To date, most metabolomics biomarker research has focused on identifying disease biomarkers. However, there is a need for biomarkers of early metabolic dysfunction to identify individuals who would benefit from lifestyle interventions. Concomitantly, there is a need to develop strategies to analyse metabolomics data at an individual level. We propose “MetaboVariation”, a method that models repeated measurements on individuals to explore fluctuations in metabolite levels at an individual level. MetaboVariation employs a Bayesian generalised linear model to flag individuals with intra-individual variations in their metabolite levels across multiple measurements. MetaboVariation models repeated metabolite levels as a function of explanatory variables while accounting for intra-individual variation. The posterior predictive distribution of metabolite levels at the individual level is available, and is used to flag individuals with observed metabolite levels outside the 95% highest posterior density prediction interval at a given time point. MetaboVariation was applied to a dataset containing metabolite levels for 20 metabolites, measured once every four months, in 164 individuals. A total of 28% of individuals with intra-individual variations in three or more metabolites were flagged. An R package for MetaboVariation was developed with an embedded R Shiny web application. To summarize, MetaboVariation has made considerable progress in developing strategies for analysing metabolomics data at the individual level, thus paving the way toward personalised healthcare.",
+    "citation": "Gupta, S., Gormley, I. C., & Brennan, L. (2023). MetaboVariation: Exploring individual variation in metabolite levels. *Metabolites, 13*(2), 164.",
+    "year": 2023,
+    "venue": "Metabolites",
+    "authors": ["Shubbham Gupta", "Isobel Claire Gormley", "Lorraine Brennan"],
+    "link": "https://doi.org/10.3390/metabo13020164"
+  },
+  {
+    "id": "quantum-gwo-alzheimers",
+    "title": "Quantum Grey Wolf Optimisation and Evolutionary Algorithms for Diagnosis of Alzheimer's Disease",
+    "abstract": "Alzheimer's disease (AD) is a type of brain cancer, similar to coronary artery disease. AD is a progressive neurological disorder that impairs memory, thinking abilities, and behaviour. Thus, early detection of the condition is critical, as there is no cure. We conducted a comparative analysis of various evolutionary algorithms for extracting meaningful information from the Alzheimer's dataset, which is then utilised to predict whether or not a patient has the illness. We attained an accuracy of 78%-85% using machine learning methods. When we utilised various evolutionary algorithms to perform feature selection, we observed an increase in accuracy of 5%-10%, with Grey Wolf and quantum Grey Wolf optimisation (qGWO) achieving highest accuracy of 92.8% and 94.5%, respectively, using random forest classifier. The model was evaluated using three metrics: the increase in accuracy, the time required to execute, and the number of features eliminated. Additionally, the testing revealed that certain characteristics are replicated across multiple models and might be regarded critical in the process of identifying AD.",
+    "citation": "Sharma, M., Gupta, S., Aggarwal, H., Aggarwal, T., Gupta, D., & Khanna, A. (2022). Quantum Grey Wolf optimisation and evolutionary algorithms for diagnosis of Alzheimer's disease. *International Journal of Modelling, Identification and Control, 41*(1–2), 53–67.",
+    "year": 2022,
+    "venue": "International Journal of Modelling, Identification and Control",
+    "authors": ["Shubbham Gupta", "Moolchand Sharma", "Himanshu Aggarwal", "Tarun Aggarwal", "Deepak Gupta", "Ashish Khanna"],
+    "link": "https://doi.org/10.1504/IJMIC.2022.127097"
+  },
+  {
+    "id": "modified-bio-breast-cancer",
+    "title": "Modified Bio-Inspired Algorithms for Diagnosis of Breast Cancer Using Aggregation",
+    "abstract": "The most widely detectable of all cancers found in women is breast cancer. The mortality rate is also the second-highest among women with a 12% growth rate. It is very pertinent to diagnose breast cancer in the nascent stages so that the survival of the patient is ensured with the help of proper medication. Several algorithms have been proposed in this regard. However, they have failed to achieve the desired level of accuracy. An improved version of the particle swarm optimisation and firefly algorithm is presented in this paper to overcome the drawbacks of the existing algorithm. The two algorithms are further aggregated to improve the accuracy of the results. The aggregated algorithm is used on the Breast Cancer Wisconsin (Diagnostic) Data Set (real-valued dataset), and results are calculated for different classifiers. An accuracy of 92%-96% is shown by improved particle swarm optimisation and 1%-2% overall hike in the accuracy by improved firefly algorithm, respectively. Finally, the aggregated algorithm shows an accuracy of 93%-97%. Further, random forest classifier has displayed the best accuracy of 97%.",
+    "citation": "Sharma, M., Gupta, S., & Deswal, S. (2021). Modified bio-inspired algorithms for diagnosis of breast cancer using aggregation. *International Journal of Innovative Computing and Applications, 12*(1), 37–47.",
+    "year": 2021,
+    "venue": "International Journal of Innovative Computing and Applications",
+    "authors": ["Shubbham Gupta", "Moolchand Sharma", "Suman Deswal"],
+    "link": "https://doi.org/10.1504/IJICA.2021.113615"
+  },
+  {
+    "id": "bio-breast-cancer",
+    "title": "Bio-Inspired Algorithms for Diagnosis of Breast Cancer",
+    "abstract": "Most commonly found cancer among women is breast cancer. Roughly 12% of women grow breast cancer during their lifetime. It is the second prominent fatal cancer among women. Breast cancer diagnosis is necessary during its initial phase for the proper treatment of the patients to lead constructive lives for an extensive period. Many different algorithms are introduced to improve the diagnosis of breast cancer, but many have less efficiency. In this work, we have compared different bio-inspired algorithms including artificial bee colony optimisation, particle swarm optimisation, ant colony optimisation and firefly algorithm. The performances on these algorithms have been measured for UCI Dataset of Wisconsin Diagnostic Breast Cancer, and the results have been calculated using different classifiers on the selected features. After the experiment, it is seen that BPSO has shown maximum accuracy of 96.45% and BFA has shown considerable results of 95.81% with six features which is minimum of all algorithms.",
+    "citation": "Sharma, M., Gupta, S., Sharma, P., & Gupta, D. (2019). Bio-inspired algorithms for diagnosis of breast cancer. *International Journal of Innovative Computing and Applications, 10*(3–4), 164–174.",
+    "year": 2019,
+    "venue": "International Journal of Innovative Computing and Applications",
+    "authors": ["Shubbham Gupta", "Moolchand Sharma", "Prerna Sharma", "Deepak Gupta"],
+    "link": "https://doi.org/10.1504/IJICA.2019.103380"
+  },
+  {
+    "id": "bio-heart-disease",
+    "title": "Bio-Inspired Algorithms for Diagnosis of Heart Disease",
+    "abstract": "Around one in every four deaths occur due to heart diseases in the USA every year (610,000 people approximately). One of the main reasons of fatality is due to a heart disease which also depends on various factors like obesity, diabetes, and aging. The deaths due to heart disease reduced by an indicative 41% in the USA between 1990 and 2016, whereas in our India it increased by approximately 34% from 155 to 209. The aim of this study is to aid the diagnosis of heart disease using bio-inspired algorithms. In this paper, a novel approach for the diagnosis of heart disease is inspected with the use of bio-inspired algorithms on Statlog (Heart) database from the UCI database. Bio-inspired algorithms used were binary ant colony optimization (ACO), binary firefly algorithm (FA), binary particle swarm optimization (PSO), and binary artificial bee colony (ABC) for feature selection. Bio-inspired algorithms target to decrease the dimensions of the dataset by defining the attributes which are most discerning. This helps us to successfully and efficiently classify whether a person is suffering from any heart disease or not. Out of the four algorithms, using the binary particle swarm optimization we have got the maximum accuracy of 90.09% and the classifier used was decision tree classifier. The results show that the algorithm is adequately quick and definite to be used in the analysis.",
+    "citation": "Sharma, M., Bansal, A., Gupta, S., Asija, C., & Deswal, S. (2020). Bio-inspired algorithms for diagnosis of heart disease. In *International Conference on Innovative Computing and Communications: Proceedings of ICICC 2019, Volume 1* (pp. 531–542). Springer Singapore.",
+    "year": 2020,
+    "venue": "International Conference on Innovative Computing and Communications (ICICC 2019)",
+    "authors": ["Shubbham Gupta", "Moolchand Sharma", "Ananya Bansal", "Chirag Asija", "Suman Deswal"],
+    "link": "https://doi.org/10.1007/978-981-15-1286-5_45"
+  }
+]

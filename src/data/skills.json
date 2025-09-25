@@ -1,0 +1,85 @@
+[
+  {
+    "category": "Programming & Databases",
+    "items": [
+      { "name": "Python (OOP, SOLID, PEP8)", "level": "Expert" },
+      { "name": "R", "level": "Expert" },
+      { "name": "C++", "level": "Intermediate" },
+      { "name": "Java", "level": "Intermediate" },
+      { "name": "SQL", "level": "Expert" },
+      { "name": "MySQL", "level": "Expert" },
+      { "name": "PostgreSQL", "level": "Intermediate" },
+      { "name": "MongoDB", "level": "Intermediate" }
+    ]
+  },
+  {
+    "category": "Data Analysis & Visualization",
+    "items": [
+      { "name": "Power BI", "level": "Intermediate" },
+      { "name": "Tableau", "level": "Intermediate" },
+      { "name": "Plotly", "level": "Expert" },
+      { "name": "Pandas", "level": "Expert" },
+      { "name": "NumPy", "level": "Expert" },
+      { "name": "Matplotlib", "level": "Expert" },
+      { "name": "Scikit-learn", "level": "Expert" },
+      { "name": "TensorFlow", "level": "Expert" },
+      { "name": "Keras", "level": "Intermediate" },
+      { "name": "PyTorch", "level": "Expert" },
+      { "name": "XGBoost", "level": "Intermediate" }
+    ]
+  },
+  {
+    "category": "Cloud, Big Data & Development Tools",
+    "items": [
+      { "name": "AWS", "level": "Intermediate" },
+      { "name": "Azure", "level": "Intermediate" },
+      { "name": "GCP", "level": "Intermediate" },
+      { "name": "Hadoop", "level": "Beginner" },
+      { "name": "Spark", "level": "Intermediate" },
+      { "name": "Hive", "level": "Beginner" },
+      { "name": "Jupyter Notebook", "level": "Expert" },
+      { "name": "RStudio", "level": "Expert" },
+      { "name": "Anaconda", "level": "Expert" },
+      { "name": "GitHub", "level": "Expert" },
+      { "name": "Git", "level": "Expert" },
+      { "name": "MS Office", "level": "Expert" }
+    ]
+  },
+  {
+    "category": "AI/ML & LLM Tooling",
+    "items": [
+      { "name": "HuggingFace", "level": "Expert" },
+      { "name": "FinBERT", "level": "Intermediate" },
+      { "name": "LLaMA", "level": "Intermediate" },
+      { "name": "LangChain", "level": "Intermediate" },
+      { "name": "LangGraph", "level": "Intermediate" },
+      { "name": "OpenAI API", "level": "Expert" },
+      { "name": "Transformers", "level": "Intermediate" },
+      { "name": "Prompt Engineering", "level": "Expert" },
+      { "name": "VectorDBs (FAISS, Pinecone)", "level": "Intermediate" }
+    ]
+  },
+  {
+    "category": "Automation & Workflow Tools",
+    "items": [
+      { "name": "YAML", "level": "Intermediate" },
+      { "name": "CI/CD", "level": "Intermediate" },
+      { "name": "GitHub Actions", "level": "Intermediate" },
+      { "name": "Workflow Orchestration", "level": "Intermediate" },
+      { "name": "Workflow Mapping", "level": "Intermediate" },
+      { "name": "Requirement Gathering", "level": "Expert" },
+      { "name": "Stakeholder Alignment", "level": "Expert" }
+    ]
+  },
+  {
+    "category": "Agent Frameworks & MLOps",
+    "items": [
+      { "name": "Agentic AI Systems", "level": "Intermediate" },
+      { "name": "Modular AI Agent Design", "level": "Intermediate" },
+      { "name": "Retrieval-Augmented Generation (RAG)", "level": "Intermediate" },
+      { "name": "LLMOps", "level": "Intermediate" },
+      { "name": "ML Monitoring", "level": "Intermediate" },
+      { "name": "Data Pipelines", "level": "Expert" }
+    ]
+  }
+]

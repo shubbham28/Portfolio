@@ -1,0 +1,79 @@
+[
+  {
+    "id": "portfolio-agent",
+    "title": "Voice‑Enabled Portfolio Agent",
+    "description": "AI‑powered personal portfolio that converts CV data into a conversational experience with spoken summaries and interactive section browsing.",
+    "tech": ["Python", "Streamlit", "OpenAI GPT‑4", "Text‑to‑Speech", "UX Design"],
+    "image": "",
+    "details": "This Streamlit application reads structured CV data, generates third‑person summaries for each section using GPT‑4 and plays them via OpenAI TTS. Users interact with a clean UI to explore education, experience, projects and publications; caching avoids redundant API calls, and a dark theme enhances presentation:contentReference[oaicite:13]{index=13}. The project includes configuration files for API keys and outlines potential enhancements like multilingual narration and voice input.",
+    "repo": "https://github.com/shubbham28/Portfolio_Agent",
+    "LinkedIn": "https://www.linkedin.com/posts/shubbhamgupta_jobsearch-portfolio-llms-activity-7328475441248284673-dt19?utm_source=share&utm_medium=member_desktop&rcm=ACoAABpn0mkByKwXS8e0XYF_7agQKthDs1bIh34"
+  },
+ {
+    "id": "job-hunt-agent",
+    "title": "Job Hunt Agent",
+    "description": "An AI‑powered system that parses your CV, searches jobs, deduplicates listings and scores roles against your resume using GPT models, all with a Streamlit dashboard.",
+    "tech": ["Python", "Streamlit", "OpenAI", "RapidAPI JSearch", "Pandas"],
+    "image": "",
+    "details": "The agent automates the entire job search pipeline: parsing PDF resumes, suggesting suitable roles via OpenAI GPT, scraping jobs from LinkedIn and Google through the JSearch API, deduplicating similar postings, and ranking roles by ATS score using GPT‑4 reasoning:contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}. Users can run it via a Streamlit app or notebooks, configure API keys in YAML and view results in interactive tables. Built‑in safeguards skip duplicate jobs and store reasoning outputs.",
+    "repo": "https://github.com/shubbham28/job-hunt-agent",
+    "LinkedIn": "https://www.linkedin.com/posts/shubbhamgupta_jobsearch-ai-datascience-activity-7326236958450462723-CIS4?utm_source=share&utm_medium=member_desktop&rcm=ACoAABpn0mkByKwXS8e0XYF_7agQKthDs1bIh34"
+  },
+  {
+    "id": "youtube-rag",
+    "title": "YouTube RAG & Flashcard Generator",
+    "description": "Retrieval‑augmented app that summarizes YouTube lectures and produces topic‑specific flashcards using GPT‑4 and FAISS embeddings.",
+    "tech": ["Python", "Streamlit", "OpenAI", "FAISS", "YouTube API"],
+    "image": "",
+    "details": "The tool lets users submit one or more YouTube links. It fetches transcripts, splits them into manageable chunks, encodes them with OpenAI embeddings and stores them in a FAISS vector index. GPT‑4 generates structured summaries—covering key topics, definitions and examples—while a flashcard module returns Q/A cards for any user‑supplied topic. An interactive Streamlit interface makes it easy to run the pipeline and study technical videos:contentReference[oaicite:18]{index=18}.",
+    "repo": "https://github.com/shubbham28/Youtube_rag",
+    "LinkedIn": "https://www.linkedin.com/posts/shubbhamgupta_llm-nlp-stanfordcs224n-activity-7343656722240045056-uep1?utm_source=share&utm_medium=member_desktop&rcm=ACoAABpn0mkByKwXS8e0XYF_7agQKthDs1bIh34"
+
+  },
+  {
+    "id": "financial-agent",
+    "title": "Financial Analysis Agent with LLMs",
+    "description": "Modular AI agent that streams real‑time stock data, performs sentiment analysis and generates natural‑language summaries through a chat‑style Streamlit interface.",
+    "tech": ["Python", "Streamlit", "FinBERT", "LangChain", "OpenAI"],
+    "image": "",
+    "details": "The agent ingests real‑time price feeds from Yahoo Finance, applies technical indicators like EMA, RSI, MACD and Bollinger Bands, scrapes news from Finviz for FinBERT‑based sentiment, and uses large language models to summarize trends and validate prompts:contentReference[oaicite:2]{index=2}. A clean Streamlit UI presents interactive charts and chat‑driven analysis, with modular skills defined via separate scripts and configurable API keys.",
+    "repo": "https://github.com/shubbham28/financial-agent",
+    "LinkedIn": "https://www.linkedin.com/posts/shubbhamgupta_ai-llmops-fintech-activity-7313190789411491840-jSkx?utm_source=share&utm_medium=member_desktop&rcm=ACoAABpn0mkByKwXS8e0XYF_7agQKthDs1bIh34"
+  },
+  {
+    "id": "metabovariation",
+    "title": "MetaboVariation Package",
+    "description": "R package implementing a Bayesian model to explore intra‑individual variation in metabolite levels and flag potential biomarkers.",
+    "tech": ["R", "Stan", "brms", "Shiny", "Plotly"],
+    "image": "",
+    "details": "MetaboVariation models repeated metabolite measurements using Bayesian generalized linear models via brms and cmdstanr. It provides functions to visualize intra‑individual fluctuations with heatmaps and circos plots, and flag individuals whose metabolite levels fall outside posterior prediction intervals. The package depends on R libraries such as brms, ComplexHeatmap and Plotly and includes installation instructions:contentReference[oaicite:10]{index=10}. An accompanying Shiny app offers an interactive interface.",
+    "repo": "https://github.com/shubbham28/MetaboVariation"
+  },
+{
+    "id": "hadoop-data-analysis",
+    "title": "Hadoop Data Analysis",
+    "description": "Simple exploration of Hadoop’s ecosystem, analyzing datasets stored in different file formats using distributed processing tools.",
+    "tech": ["Hadoop", "MapReduce", "Hive", "Java", "Big Data"],
+    "image": "",
+    "details": "This project investigates how various file formats behave in Hadoop. It uses MapReduce jobs and other Hadoop tools to process and compare performance on datasets stored as text, sequence files and other formats, illustrating the basics of distributed data analysis:contentReference[oaicite:6]{index=6}.",
+    "repo": "https://github.com/shubbham28/Hadoop-Data-Analysis"
+  },
+    {
+    "id": "music-genre-classification",
+    "title": "Music Genre Classification with Mathematica",
+    "description": "Signal‑processing project that classifies audio snippets into genres using extracted features such as ZCR, spectral roll‑off, centroid, loudness and MFCCs.",
+    "tech": ["Mathematica", "Audio Signal Processing", "Machine Learning", "GTZAN", "Feature Extraction"],
+    "image": "",
+    "details": "Using the GTZAN dataset of 1,000 thirty‑second clips across 10 genres, this project extracts a variety of features—including Zero Crossing Rate, spectral contrast and MFCCs—from each audio signal:contentReference[oaicite:12]{index=12}. It then trains classification algorithms in Mathematica to assign genres to unseen samples, demonstrating dataset preparation, feature extraction and model evaluation for music genre recognition.",
+    "repo": "https://github.com/shubbham28/Music-Genre-Clasification-Mathematica"
+  },
+   {
+    "id": "sorting-algorithm-visualizer",
+    "title": "Sorting Algorithm Visualizer",
+    "description": "Educational tool that animates the step‑by‑step operation of classic sorting algorithms using Matplotlib.",
+    "tech": ["Python", "Matplotlib", "Algorithms", "Visualization", "CLI"],
+    "image": "",
+    "details": "The project implements Quick Sort, Bubble Sort, Selection Sort, Insertion Sort, Heap Sort and Merge Sort in a custom Array class. Running `python main.py algorithm_name` displays an animated visualization of how the algorithm manipulates the array. The repository invites contributions of new algorithms and includes tests to ensure correctness:contentReference[oaicite:15]{index=15}.",
+    "repo": "https://github.com/shubbham28/Sorting-Algorithm-Visualizer"
+  }
+]
