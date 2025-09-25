@@ -9,6 +9,17 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Netlify Forms: hidden static blueprint for detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+      <div data-netlify-recaptcha="true"></div>
+    </form>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
