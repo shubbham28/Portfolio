@@ -13,13 +13,11 @@ const About = () => {
 			<div className="max-w-5xl mx-auto text-center">
 				<h2 className="text-3xl font-bold mb-8 heading-gradient">About</h2>
 				<p className="text-neutral-300 max-w-4xl mx-auto leading-relaxed text-base md:text-lg">
-					PhD-level AI and Data Science professional with strong software
-					engineerings fundamentals and hands-on experience in building robust,
-					real-time analytics systems. Specialized in Bayesian modeling,
-					LLM-powered agents, cloud infrastructure (AWS/GCP), and agentic workflows
-					using LangChain and HuggingFace. Strong communicator and team player
-					with a history of delivering impactful, stakeholder-aligned solutions in
-					health tech, finance, and enterprise automation.
+					PhD-level AI and Data Science professional with strong software engineering fundamentals and hands-on experience in building robust,
+					real-time analytics systems. I specialize in Bayesian modeling, LLM-powered agents, cloud infrastructure (AWS/GCP), and agentic workflows
+					using LangChain and HuggingFace. My name, Shubbham Gupta, reflects struggles and gratitude, qualities that guide my approach to solving
+					complex problems with resilience, humility, and purpose. I am also a strong communicator and collaborator, with a proven track record of
+					delivering impactful, stakeholder-aligned solutions across health tech, finance, and enterprise automation.
 				</p>
 				<div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-16">
 					{stats.map(s => (
