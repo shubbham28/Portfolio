@@ -70,7 +70,7 @@ function NavBar() {
             ))}
           </ul>
           <div className="ml-auto flex items-center gap-2">
-            <a href="/Shubbham_Gupta_CV.pdf" download className="px-3 py-1.5 rounded-md bg-brand-600 hover:bg-brand-500 text-white text-xs font-medium">Download CV</a>
+            <a href="/Shubbham Gupta_CV.pdf" download className="px-3 py-1.5 rounded-md bg-brand-600 hover:bg-brand-500 text-white text-xs font-medium">Download CV</a>
           </div>
         </div>
       </div>
