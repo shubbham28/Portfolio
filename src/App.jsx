@@ -24,14 +24,16 @@ function App() {
   const experiences = [
   {
     "id": "fullstack-adapt",
-    "role": "Full Stack Developer",
+    "role": "Data Scientist (Full Stack)",
     "company": "Marketing Analytics Startup, ADAPT Centre, Trinity College Dublin",
     "period": "July 2025 - Present",
     "description": [
-      "Led full-stack development of a marketing analytics platform combining FastAPI backends with React frontends.",
-      "Built automated testing pipelines using PyTest and Cypress-style workflows to ensure robust deployment.",
-      "Implemented advanced UX features including session persistence, custom export tools, and S3 artifact versioning.",
-      "Owned the entire product lifecycle in a startup environment, from requirements and modeling to deployment and cloud optimization."
+  "Designed and deployed Marketing Mix Modeling (MMM) and causal attribution pipelines to map consumer journeys and channel ROI.",
+  "Unified marketing data sources (Google Analytics, Meta/Facebook Ads, YouTube, internal campaigns) into automated pipelines for spend optimization and attribution.",
+  "Delivered actionable insights that improved marketing budget allocation and reduced waste from misleading advertising signals.",
+  "Engineered scalable workflows for data ingestion, transformation, and analysis using Pandas, NumPy, FastAPI, and AWS (S3, Batch, Docker).",
+  "Developed reproducible testing and validation frameworks (PyTest, CI/CD) to ensure robustness and reliability of attribution models.",
+  "Bridged models to product by deploying pipelines into production and enabling interactive dashboards and visuals (Plotly, Vega, React)."
     ]
   },
   {
