@@ -11,6 +11,9 @@ export default {
         sans: ['Inter', 'system-ui', 'Avenir', 'Helvetica', 'Arial', 'sans-serif'],
       },
       colors: {
+        neutral: {
+          950: '#1d1d1dff', // or whatever hex you prefer
+        },
         brand: {
           50: '#eef9ff',
           100: '#d6f0ff',

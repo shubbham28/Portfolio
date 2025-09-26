@@ -51,7 +51,7 @@ function NavBar() {
   ];
 
   return (
-    <nav ref={navRef} className="fixed top-0 inset-x-0 z-50 border-b border-white/10 bg-neutral-900/80 backdrop-blur supports-[backdrop-filter]:bg-neutral-900/60">
+    <nav ref={navRef} className="fixed top-0 inset-x-0 z-50 border-b border-white/10 bg-neutral-950/80 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <div className="flex items-center h-14 gap-6 overflow-x-auto no-scrollbar">
           <button onClick={() => scrollTo('introduction')} className="text-sm font-semibold tracking-wide text-brand-400 hover:text-brand-300">
